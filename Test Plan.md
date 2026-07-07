@@ -36,8 +36,8 @@ This test plan defines the scope, strategy, and approach for performing **manual
 | **Testing Type** | Manual Functional Testing |
 | **Project Start Date** | July 1, 2026 |
 | **Project End Date** | July 7, 2026 |
-| **Prepared By** | [Your Name] |
-| **Reviewed By** | [Reviewer Name] |
+| **Prepared By** | Aman |
+| **Reviewed By** | Aman |
 
 ---
 
