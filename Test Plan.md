@@ -49,7 +49,7 @@ The primary objectives of this testing effort are:
 2. **Validate input field validations** and error messages for negative test scenarios.
 3. **Ensure UI consistency** and usability across all pages.
 4. **Identify and document defects** using a structured bug reporting format.
-5. **Assess browser compatibility** across Chrome and Firefox.
+5. **Assess browser compatibility** across Chrome.
 6. **Trace all test cases to requirements** using the Requirement Traceability Matrix (RTM).
 7. **Produce a test summary report** documenting overall test execution results.
 
