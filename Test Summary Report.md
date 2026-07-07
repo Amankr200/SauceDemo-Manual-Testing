@@ -1,4 +1,4 @@
-#Test Summary Report — SauceDemo Manual Testing
+# Test Summary Report — SauceDemo Manual Testing
 
 **Document Version:** 1.0   
 **Application:** SauceDemo (https://www.saucedemo.com/)  
