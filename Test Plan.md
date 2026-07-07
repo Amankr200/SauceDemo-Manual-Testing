@@ -127,7 +127,7 @@ The primary objectives of this testing effort are:
 |---|---|
 | **Operating System** | Windows 11 (64-bit) |
 | **Primary Browser** | Google Chrome — Latest Stable Version |
-| **Secondary Browser** | Mozilla Firefox — Latest Stable Version |
+| **Secondary Browser** | Microsoft Edge — Latest Stable Version |
 | **Screen Resolution** | 1920 x 1080 |
 | **Network** | Stable broadband internet connection |
 | **Application URL** | https://www.saucedemo.com/ |
@@ -150,10 +150,9 @@ The primary objectives of this testing effort are:
 | Browser | Version | Priority | Test Execution |
 |---|---|---|---|
 | Google Chrome | Latest | High | Primary |
-| Mozilla Firefox | Latest | High | Secondary |
 | Microsoft Edge | Latest | Medium | Spot check |
 | Safari (Mac) | Latest | Low | Not tested (Windows environment) |
-| Internet Explorer | Any | None | Not supported |
+
 
 ---
 
