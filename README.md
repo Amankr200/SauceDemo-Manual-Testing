@@ -1,26 +1,25 @@
-# 🧪 SauceDemo Manual Testing Portfolio
+# SauceDemo Manual Testing Portfolio
 
 ![Testing](https://img.shields.io/badge/Type-Manual%20Testing-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Test Cases](https://img.shields.io/badge/Test%20Cases-50%2B-orange)
+![Test Cases](https://img.shields.io/badge/Test%20Cases-52-orange)
 ![Coverage](https://img.shields.io/badge/Coverage-95%25-green)
 ![Application](https://img.shields.io/badge/AUT-SauceDemo-red)
 
-## 📌 Project Overview
+## Project Overview
 
-This repository showcases a **complete end-to-end Manual Testing portfolio** for the [SauceDemo](https://www.saucedemo.com/) e-commerce web application. It was created to demonstrate professional QA skills including test planning, test case design, defect reporting, and traceability.
+This repository showcases a complete end-to-end Manual Testing portfolio for the [SauceDemo](https://www.saucedemo.com/) e-commerce web application. It was created to demonstrate professional QA skills including test planning, test case design, defect reporting, and traceability.
 
 > **Application Under Test (AUT):** SauceDemo — https://www.saucedemo.com/  
 > **Application Type:** E-Commerce Web Application  
 > **Testing Type:** Manual Functional Testing  
-> **Tester:** [Your Name]  
-> **Date:** July 2026
+> **Tester:** Aman Kumar
 
 ---
 
-## 🎯 Objective
+## Objective
 
-Performed **end-to-end manual testing** of the SauceDemo e-commerce application to:
+Performed end-to-end manual testing of the SauceDemo e-commerce application to:
 - Validate core business functionalities across all major modules
 - Identify and document defects using industry-standard bug reporting
 - Ensure the application meets expected requirements
@@ -28,20 +27,20 @@ Performed **end-to-end manual testing** of the SauceDemo e-commerce application 
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 SauceDemo-Manual-Testing/
 │
-├── README.md                        ← This file
-├── Test Plan.md                     ← Comprehensive test plan document
-├── Test Scenarios.md                ← 25–30 test scenarios
-├── Test Cases.md                    ← 50+ detailed test cases
-├── Bug Reports.md                   ← Identified & practice bug reports
-├── RTM.md                           ← Requirement Traceability Matrix
-├── Test Data.md                     ← Test data used during testing
-├── Test Summary Report.md           ← Final test execution summary
-└── Screenshots/                     ← Test execution evidence
+├── README.md                              <- This file
+├── Test Plan.md                           <- Comprehensive test plan document
+├── Test Scenarios.csv                     <- 30 test scenarios
+├── Test Cases.csv                         <- 52 detailed test cases
+├── Bug Reports.csv                        <- Identified & practice bug reports
+├── RTM.csv                                <- Requirement Traceability Matrix
+├── Test Data.csv                          <- Test data used during testing
+├── Test Summary Report.md                 <- Final test execution summary
+└── Screenshots/                           <- Test execution evidence
     ├── 01_Login_Page.png
     ├── 02_Product_Listing_Page.png
     ├── 03_Product_Detail_Page.png
@@ -55,77 +54,76 @@ SauceDemo-Manual-Testing/
 
 ---
 
-## 🧩 Modules Tested
+## Modules Tested
 
 | Module | Description |
 |---|---|
-| 🔐 **Login** | Authentication, validation, error handling |
-| 🛍️ **Product Listing** | Product display, sorting, filtering |
-| 📦 **Product Detail** | Individual product view, add to cart |
-| 🛒 **Cart** | Add/remove items, quantity, badge count |
-| 💳 **Checkout** | Multi-step checkout, form validation, order completion |
-| 🧭 **Navigation** | Menu, logout, browser back button |
-| 🖥️ **UI & Usability** | Layout, alignment, error message styling |
+| Login | Authentication, validation, error handling |
+| Product Listing | Product display, sorting, filtering |
+| Product Detail | Individual product view, add to cart |
+| Cart | Add/remove items, quantity, badge count |
+| Checkout | Multi-step checkout, form validation, order completion |
+| Navigation | Menu, logout, browser back button |
+| UI & Usability | Layout, alignment, error message styling |
 
 ---
 
-## 📋 Deliverables
+## Deliverables
 
 | Deliverable | Description | Status |
 |---|---|---|
-| [Test Plan](./Test%20Plan.md) | Project scope, strategy, risks | ✅ Complete |
-| [Test Scenarios](./Test%20Scenarios.md) | 28 high-level test scenarios | ✅ Complete |
-| [Test Cases](./Test%20Cases.md) | 52 detailed step-by-step test cases | ✅ Complete |
-| [Bug Reports](./Bug%20Reports.md) | 8 documented defects | ✅ Complete |
-| [RTM](./RTM.md) | Requirement Traceability Matrix | ✅ Complete |
-| [Test Data](./Test%20Data.md) | Input data for all test cases | ✅ Complete |
-| [Test Summary Report](./Test%20Summary%20Report.md) | Final execution results | ✅ Complete |
-| [Screenshots](./Screenshots/) | Visual test evidence | ✅ Complete |
+| [Test Plan](./Test%20Plan.md) | Project scope, strategy, risks | Complete |
+| [Test Scenarios](./Test%20Scenarios.csv) | 30 high-level test scenarios | Complete |
+| [Test Cases](./Test%20Cases.csv) | 52 detailed step-by-step test cases | Complete |
+| [Bug Reports](./Bug%20Reports.csv) | 8 documented defects | Complete |
+| [RTM](./RTM.csv) | Requirement Traceability Matrix | Complete |
+| [Test Data](./Test%20Data.csv) | Input data for all test cases | Complete |
+| [Test Summary Report](./Test%20Summary%20Report.md) | Final execution results | Complete |
+| [Screenshots](./Screenshots/) | Visual test evidence | Complete |
 
 ---
 
-## 📊 Test Summary (Quick View)
+## Test Summary
 
 | Metric | Count |
 |---|---|
-| Total Test Scenarios | 28 |
+| Total Test Scenarios | 30 |
 | Total Test Cases | 52 |
-| ✅ Passed | 46 |
-| ❌ Failed | 4 |
-| ⏸️ Blocked | 2 |
-| 🐛 Bugs Identified | 8 |
-| 📈 Test Coverage | ~95% |
-| ✔️ Test Completion | 96.2% |
+| Passed | 51 |
+| Failed | 1 |
+| Blocked | 0 |
+| Bugs Identified | 8 |
+| Test Coverage | ~95% |
+| Test Completion | 98.1% |
 
 ---
 
-## 🛠️ Skills Demonstrated
+## Skills Demonstrated
 
-- ✅ **Manual Testing** — Hands-on test execution across all modules
-- ✅ **Functional Testing** — Validating features against expected behavior
-- ✅ **Regression Testing** — Re-testing post-fix scenarios
-- ✅ **Smoke Testing** — Core functionality validation
-- ✅ **Test Case Design** — Writing clear, reusable, detailed test cases
-- ✅ **Test Scenario Design** — Identifying coverage areas from requirements
-- ✅ **Bug Reporting** — Structured defect documentation with severity/priority
-- ✅ **Requirement Traceability Matrix (RTM)** — Mapping requirements to tests
-- ✅ **SDLC & STLC** — Understanding of software and test life cycles
+- Manual Testing — Hands-on test execution across all modules
+- Functional Testing — Validating features against expected behavior
+- Regression Testing — Re-testing post-fix scenarios
+- Smoke Testing — Core functionality validation
+- Test Case Design — Writing clear, reusable, detailed test cases
+- Test Scenario Design — Identifying coverage areas from requirements
+- Bug Reporting — Structured defect documentation with severity/priority
+- Requirement Traceability Matrix (RTM) — Mapping requirements to tests
+- SDLC & STLC — Understanding of software and test life cycles
 
 ---
 
-## 🌐 Test Environment
+## Test Environment
 
 | Parameter | Details |
 |---|---|
 | **OS** | Windows 11 |
-| **Browser 1** | Google Chrome (Latest) |
-| **Browser 2** | Mozilla Firefox (Latest) |
+| **Browser** | Google Chrome (Latest) |
 | **Application URL** | https://www.saucedemo.com/ |
 | **Network** | Stable broadband connection |
 
 ---
 
-## 👤 Test Users
+## Test Users
 
 | Username | Password | Role/Status |
 |---|---|---|
@@ -136,7 +134,7 @@ SauceDemo-Manual-Testing/
 
 ---
 
-## 📸 Screenshots Preview
+## Screenshots Preview
 
 | Page | Screenshot |
 |---|---|
@@ -144,15 +142,4 @@ SauceDemo-Manual-Testing/
 | Product Listing | `Screenshots/02_Product_Listing_Page.png` |
 | Cart | `Screenshots/04_Cart_Page.png` |
 | Checkout Complete | `Screenshots/07_Checkout_Complete.png` |
-| Error – Locked User | `Screenshots/08_Error_Locked_Out_User.png` |
-
----
-
-## 📬 Contact
-
-> This project is part of my QA Testing Portfolio.  
-> Feel free to connect with me on [LinkedIn](#) or reach me at [your.email@example.com](mailto:your.email@example.com).
-
----
-
-*Last Updated: July 2026*
+| Error - Locked User | `Screenshots/08_Error_Locked_Out_User.png` |
