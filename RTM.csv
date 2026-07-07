@@ -1,0 +1,41 @@
+﻿Requirement ID,Requirement,Test Scenario IDs,Test Case IDs,Bugs Linked,Status
+R001,User must be able to log in with valid credentials,TS-001,TC-001,,Pass
+R002,System must reject invalid username/password combinations,"TS-002, TS-003","TC-002, TC-003",,Pass
+R003,System must show error when login fields are empty,"TS-004, TS-005, TS-006","TC-004, TC-005, TC-006",,Pass
+R004,Locked-out users must not be able to access the application,TS-007,TC-007,BUG-001,Pass
+R005,Error messages must be dismissible,TS-001,TC-009,,Pass
+R006,Password field must mask input characters,TS-001,TC-052,,Pass
+R007,All available products must be displayed on the inventory page,TS-008,TC-010,,Pass
+R008,"Each product must display name, image, description, price, and action button",TS-009,"TC-011, TC-043",,Pass
+R009,Clicking a product must navigate to its detail page,TS-010,"TC-012, TC-013",,Pass
+R010,Products must be sortable by Name (A-Z),TS-011,TC-014,,Pass
+R011,Products must be sortable by Name (Z-A),TS-012,TC-015,BUG-005,Pass
+R012,Products must be sortable by Price (Low to High),TS-013,TC-016,,Pass
+R013,Products must be sortable by Price (High to Low),TS-014,TC-017,,Pass
+R014,Adding a product to cart must update the cart badge count,"TS-016, TS-017","TC-018, TC-019",,Pass
+R015,Multiple products must be addable to the cart,TS-018,"TC-019, TC-020",,Pass
+R016,Cart must display all added products with correct details,TS-018,TC-020,,Pass
+R017,Products must be removable from the cart,"TS-019, TS-020","TC-021, TC-022",BUG-002,Pass
+R018,Cart must persist when navigating between pages,TS-018,TC-051,,Pass
+R019,Continue Shopping must return user to the product listing,TS-016,TC-023,,Pass
+R020,User must be able to initiate checkout from the cart,TS-021,TC-024,,Pass
+R021,"Checkout form must accept valid first name, last name, and postal code",TS-021,TC-025,,Pass
+R022,Checkout must validate First Name is not empty,TS-022,TC-026,,Pass
+R023,Checkout must validate Last Name is not empty,TS-023,TC-027,,Pass
+R024,Checkout must validate Postal Code is not empty,TS-024,TC-028,,Pass
+R025,Checkout overview must display correct item total,TS-025,TC-029,,Pass
+R026,Checkout overview must display correct tax amount,TS-025,TC-030,,Pass
+R027,Checkout grand total must equal item total plus tax,TS-025,TC-031,,Pass
+R028,Checkout must display payment and shipping information,TS-025,TC-050,,Pass
+R029,Completing checkout must display order confirmation page,TS-026,TC-032,,Pass
+R030,Back Home must navigate to inventory after order confirmation,TS-026,TC-033,,Pass
+R031,User must be able to cancel checkout at Step 1,TS-021,TC-034,,Pass
+R032,User must be able to cancel checkout at Step 2,TS-021,TC-035,,Pass
+R033,User must be able to log out via the sidebar menu,TS-027,TC-037,,Pass
+R034,Authenticated pages must not be accessible after logout via browser back,TS-028,TC-038,BUG-003,Fail
+R035,Sidebar menu must display all navigation options,TS-027,TC-036,,Pass
+R036,All Items menu option must navigate to inventory,TS-027,TC-039,,Pass
+R037,Reset App State must clear the cart,TS-027,TC-040,,Pass
+R038,Error messages must display with correct red styling,TS-029,TC-042,BUG-006,Pass
+R039,All buttons and elements must be properly aligned,TS-030,"TC-041, TC-046",,Pass
+R040,Cart icon must be visible on all authenticated pages,TS-016,TC-044,,Pass

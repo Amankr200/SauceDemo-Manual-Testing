@@ -1,0 +1,31 @@
+﻿Scenario ID,Module,Test Scenario,Priority
+TS-001,Login,Verify that a user can successfully log in with valid credentials (standard_user / secret_sauce),High
+TS-002,Login,Verify that login fails when an invalid username is entered with a valid password,High
+TS-003,Login,Verify that login fails when a valid username is entered with an invalid password,High
+TS-004,Login,Verify that an error message is shown when both username and password fields are left empty,High
+TS-005,Login,Verify that an error message is shown when only the username field is left empty,High
+TS-006,Login,Verify that an error message is shown when only the password field is left empty,High
+TS-007,Login,Verify that a locked-out user cannot log in and receives an appropriate error message,High
+TS-008,Product Page,Verify that all 6 products are displayed on the product listing page after successful login,High
+TS-009,Product Page,Verify that each product card displays the image + name + description + price + Add to cart button,Medium
+TS-010,Product Page,Verify that clicking a product name navigates to the correct product detail page,Medium
+TS-011,Product Page,Verify that products can be sorted alphabetically from A to Z,Medium
+TS-012,Product Page,Verify that products can be sorted alphabetically from Z to A,Medium
+TS-013,Product Page,Verify that products can be sorted by price from low to high,Medium
+TS-014,Product Page,Verify that products can be sorted by price from high to low,Medium
+TS-015,Product Page,Verify that all product images are loaded correctly and are not broken,Low
+TS-016,Cart,Verify that clicking Add to cart on a product adds it to the shopping cart,High
+TS-017,Cart,Verify that the cart badge count increments correctly as items are added,High
+TS-018,Cart,Verify that multiple different products can be added to the cart simultaneously,High
+TS-019,Cart,Verify that clicking Remove on a cart item removes it from the cart,High
+TS-020,Cart,Verify that the cart badge count decrements when an item is removed,Medium
+TS-021,Checkout,Verify that the checkout process completes with all valid information (First Name + Last Name + Postal Code),High
+TS-022,Checkout,Verify that an error is shown when the First Name field is left empty during checkout,High
+TS-023,Checkout,Verify that an error is shown when the Last Name field is left empty during checkout,High
+TS-024,Checkout,Verify that an error is shown when the Postal Code field is left empty during checkout,High
+TS-025,Checkout,Verify that the checkout overview shows order summary with item total + tax + grand total,High
+TS-026,Checkout,Verify that the order confirmation page is displayed after clicking Finish on the checkout overview,High
+TS-027,Navigation,Verify that the user can successfully log out using the sidebar menu,Medium
+TS-028,Navigation,Verify that clicking the browser back button after logout does not grant access to protected pages,Medium
+TS-029,UI & Usability,Verify that error messages appear with correct red styling and icon,Low
+TS-030,UI & Usability,Verify that all buttons and interactive elements are properly aligned on each page,Low

@@ -1,0 +1,49 @@
+﻿=== SECTION 1: LOGIN TEST DATA ===
+Section,Username,Password,Expected Result,Used In
+Login - Valid,standard_user,secret_sauce,Successful login - Redirected to Products page,TC-001
+Login - Valid,problem_user,secret_sauce,Successful login - Products page with broken images,Exploratory
+Login - Valid,performance_glitch_user,secret_sauce,Successful login - Slow load Products page,Exploratory
+Login - Invalid,locked_out_user,secret_sauce,Login Blocked - Sorry this user has been locked out,TC-007
+Login - Invalid,invalid_user,secret_sauce,Login Failed - Username and password do not match any user,TC-002
+Login - Invalid,standard_user,wrong_password,Login Failed - Username and password do not match any user,TC-003
+Login - Invalid,(blank),(blank),Login Failed - Username is required,TC-004
+Login - Invalid,(blank),secret_sauce,Login Failed - Username is required,TC-005
+Login - Invalid,standard_user,(blank),Login Failed - Password is required,TC-006
+
+=== SECTION 2: PRODUCTS ===
+Product Name,Price,Product ID,Notes
+Sauce Labs Backpack,.99,4,Most expensive backpack
+Sauce Labs Bike Light,.99,0,Accessory item
+Sauce Labs Bolt T-Shirt,.99,1,T-shirt
+Sauce Labs Fleece Jacket,.99,5,Most expensive item
+Sauce Labs Onesie,.99,2,Cheapest item
+Test.allTheThings() T-Shirt (Red),.99,3,Same price as Bolt T-Shirt
+
+=== SECTION 3: CART DATA ===
+Products Added,Cart Count,Item Total
+Sauce Labs Backpack only,1,.99
+Backpack + Bike Light,2,.98
+Backpack + Bike Light + Bolt T-Shirt,3,.97
+All 6 products,6,.94
+
+=== SECTION 4: CHECKOUT TEST DATA ===
+First Name,Last Name,Postal Code,Expected Result
+John,Doe,12345,Proceed to Step 2 - Valid
+Jane,Smith,90210,Proceed to Step 2 - Valid
+(blank),Doe,12345,Error: First Name is required
+John,(blank),12345,Error: Last Name is required
+John,Doe,(blank),Error: Postal Code is required
+(blank),(blank),(blank),Error: First Name is required
+
+=== SECTION 5: ORDER TOTAL CALCULATIONS ===
+Products,Item Total,Tax (~8%),Grand Total
+Sauce Labs Backpack,.99,.40,.39
+Backpack + Bike Light,.98,.20,.18
+All 6 Products,.94,.40,.34
+
+=== SECTION 6: STATIC APP DATA ===
+Data Point,Value,Notes
+Payment Method,SauceCard #31337,Hardcoded in demo app
+Shipping,Free Pony Express Delivery!,Hardcoded in demo app
+Tax Rate,~8%,Approximate based on calculation
+App URL,https://www.saucedemo.com/,Public demo site
