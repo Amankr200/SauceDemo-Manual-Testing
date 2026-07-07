@@ -1,0 +1,31 @@
+Field,Value
+Bug ID,BUG-009
+Summary,Performance_glitch_user experiences significantly delayed page load on login
+Module,Login / Performance
+Type,Performance Bug - Observed
+Status,Open
+Severity,Major
+Priority,High
+Reporter,Aman Kumar
+Assignee,Aman Kumar
+Environment,Chrome Latest | Windows 11
+Date Reported,06-Jul-2026
+Date Updated,07-Jul-2026
+Fix Version,-
+,
+Description,When logging in with the performance_glitch_user account there is a noticeable delay of approximately 3-5 seconds before the inventory page loads. All other user accounts load the inventory page near-instantly. This indicates a performance issue tied to this specific user account's session handling.
+,
+Steps to Reproduce,1. Navigate to https://www.saucedemo.com/
+,2. Enter Username: performance_glitch_user
+,3. Enter Password: secret_sauce
+,4. Click Login
+,5. Observe and time the page load duration until the inventory page is fully visible
+,
+Expected Result,The inventory page should load within an acceptable time (under 2 seconds) for all user accounts regardless of user type.
+,
+Actual Result,Inventory page for performance_glitch_user takes approximately 3-5 seconds to load compared to near-instant load for standard_user. A visible and significant delay is experienced.
+,
+Additional Notes,Intentional in SauceDemo to simulate performance issues. Documented as a real performance defect scenario.
+Attachments,Screenshots/02_Product_Listing_Page.png
+Related RTM,RTM.csv - SauceDemo Manual Testing Portfolio
+App URL,https://www.saucedemo.com/

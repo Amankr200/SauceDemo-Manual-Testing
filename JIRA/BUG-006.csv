@@ -1,0 +1,31 @@
+Field,Value
+Bug ID,BUG-006
+Summary,Login error styling not cleared when user begins correcting credentials
+Module,Login
+Type,UI / UX Bug - Practice
+Status,Open
+Severity,Minor
+Priority,Low
+Reporter,Aman Kumar
+Assignee,Aman Kumar
+Environment,Chrome Latest | Windows 11
+Date Reported,04-Jul-2026
+Date Updated,07-Jul-2026
+Fix Version,-
+,
+Description,After a failed login attempt the application displays red borders on both input fields and an error banner. When the user clicks inside a field and begins typing to correct credentials the error styling does not automatically clear. It only disappears when the user manually clicks the X dismiss button.
+,
+Steps to Reproduce,1. Navigate to https://www.saucedemo.com/
+,2. Enter an invalid username and password
+,3. Click the Login button
+,4. Observe red borders on both input fields and the error banner
+,5. Click inside the Username field and begin typing a correction
+,6. Observe the state of the red borders and error banner while typing
+,
+Expected Result,When the user begins typing in an input field after a failed login attempt the error banner should automatically dismiss and red border styling should clear - providing immediate positive feedback.
+,
+Actual Result,Red input borders and error banner remain visible while the user actively types corrections. Error styling only clears when the user manually clicks the X dismiss button.
+,
+Attachments,Screenshots/09_Error_Invalid_Credentials.png
+Related RTM,RTM.csv - SauceDemo Manual Testing Portfolio
+App URL,https://www.saucedemo.com/

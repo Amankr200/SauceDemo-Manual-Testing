@@ -1,0 +1,32 @@
+Field,Value
+Bug ID,BUG-010
+Summary,Postal code field accepts letters and special characters with no input validation
+Module,Checkout - Step 1: Your Information
+Type,Functional / Validation Bug - Practice
+Status,Open
+Severity,Medium
+Priority,Medium
+Reporter,Aman Kumar
+Assignee,Aman Kumar
+Environment,Chrome Latest | Windows 11
+Date Reported,06-Jul-2026
+Date Updated,07-Jul-2026
+Fix Version,-
+,
+Description,During the checkout information step the Postal Code field does not validate the format of the entered value. It accepts alphabetical characters special characters and any arbitrary string as long as the field is not empty. Users can submit the checkout form with an invalid postal code such as ABCDE or !!!###.
+,
+Steps to Reproduce,1. Log in with standard_user / secret_sauce
+,2. Add any product to cart and proceed to Checkout
+,3. Enter a valid First Name and Last Name
+,4. In the Postal Code field enter a non-numeric value (e.g. ABCDE or !!!###)
+,5. Click the Continue button
+,6. Observe whether a validation error is displayed
+,
+Expected Result,The Postal Code field should validate that the entered value is numeric and matches the expected postal code format. An invalid format should display an inline error message and block form submission.
+,
+Actual Result,The checkout form accepts any string in the Postal Code field with no validation error. The user is able to proceed past Step 1 with ABCDE or !!! entered as a postal code.
+,
+Additional Notes,First Name and Last Name fields also accept numbers and special characters - no format validation on any field.
+Attachments,Screenshots/05_Checkout_Step1_Your_Information.png
+Related RTM,RTM.csv - SauceDemo Manual Testing Portfolio
+App URL,https://www.saucedemo.com/

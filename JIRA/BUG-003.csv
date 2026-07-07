@@ -1,0 +1,33 @@
+Field,Value
+Bug ID,BUG-003
+Summary,Browser back button after logout allows access to the inventory page
+Module,Navigation / Authentication / Session Management
+Type,Security / Session Bug - Observed
+Status,Open
+Severity,Major
+Priority,High
+Reporter,Aman Kumar
+Assignee,Aman Kumar
+Environment,Chrome Latest | Windows 11
+Date Reported,03-Jul-2026
+Date Updated,07-Jul-2026
+Fix Version,-
+,
+Description,After a user logs out from SauceDemo pressing the browser Back button navigates back to /inventory.html without requiring re-authentication. This is a session management vulnerability. In a production application this would be a Critical security defect as it exposes authenticated content to unauthenticated access. Directly observed during test execution.
+,
+Steps to Reproduce,1. Navigate to https://www.saucedemo.com/
+,2. Log in with standard_user / secret_sauce
+,3. Confirm successful redirection to the Inventory page
+,4. Click the hamburger menu (top-left)
+,5. Click Logout
+,6. Confirm redirection to the Login page
+,7. Click the browser Back button
+,
+Expected Result,After logout the browser Back button should not navigate to /inventory.html. Any access to authenticated pages should redirect back to login. Session token should be invalidated upon logout.
+,
+Actual Result,Browser navigates back to /inventory.html and the full inventory page is displayed including all products and navigation - without requiring re-authentication.
+,
+Related Test Case,TC-038 - Browser back button post-logout - FAILED
+Attachments,Screenshots/08_Error_Locked_Out_User.png
+Related RTM,RTM.csv - SauceDemo Manual Testing Portfolio
+App URL,https://www.saucedemo.com/

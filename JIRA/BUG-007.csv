@@ -1,0 +1,31 @@
+Field,Value
+Bug ID,BUG-007
+Summary,No order confirmation email sent after successful checkout completion
+Module,Checkout / Order Confirmation
+Type,Missing Feature - Real-World Awareness
+Status,Open
+Severity,Minor
+Priority,Medium
+Reporter,Aman Kumar
+Assignee,Aman Kumar
+Environment,N/A - Demo App Limitation
+Date Reported,05-Jul-2026
+Date Updated,07-Jul-2026
+Fix Version,-
+,
+Description,After completing a full checkout journey SauceDemo displays a confirmation screen but sends no order confirmation email. In a real e-commerce application an automated confirmation email is a fundamental post-purchase requirement. Documented as a real-world awareness item - expected behavior for a demo application.
+,
+Steps to Reproduce,1. Log in with standard_user / secret_sauce
+,2. Add any product to the cart
+,3. Proceed through checkout: Information > Overview > Finish
+,4. Confirm you are on the Thank you for your order! confirmation page
+,5. Check any associated email inbox for a confirmation email
+,
+Expected Result,"In a real production application an automated confirmation email should be sent containing: order ID, itemized product list, total amount, and estimated delivery information."
+,
+Actual Result,No email is sent after order completion. Confirmation exists only on the in-app screen. Once the user navigates away there is no external record of the purchase.
+,
+Additional Notes,This is expected behavior for SauceDemo (demo app). Documented to demonstrate awareness of real-world e-commerce testing requirements.
+Attachments,Screenshots/07_Checkout_Complete.png
+Related RTM,RTM.csv - SauceDemo Manual Testing Portfolio
+App URL,https://www.saucedemo.com/

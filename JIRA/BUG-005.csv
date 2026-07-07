@@ -1,0 +1,32 @@
+Field,Value
+Bug ID,BUG-005
+Summary,Product sort selection does not persist after browser page refresh
+Module,Product Listing Page
+Type,UI / State Bug - Practice
+Status,Open
+Severity,Minor
+Priority,Low
+Reporter,Aman Kumar
+Assignee,Aman Kumar
+Environment,Chrome Latest | Windows 11
+Date Reported,04-Jul-2026
+Date Updated,07-Jul-2026
+Fix Version,-
+,
+Description,When a user applies a custom sort order on the inventory page and then refreshes the browser the sort preference is lost and silently reverts to the default order (Name A to Z). The sort dropdown visually resets without any notification to the user.
+,
+Steps to Reproduce,1. Log in with standard_user / secret_sauce
+,2. On the Products page click the sort dropdown (top-right)
+,3. Select Name (Z to A)
+,4. Confirm products are displayed in Z to A order
+,5. Press F5 or click the browser Refresh button
+,6. Observe the sort dropdown and product order
+,
+Expected Result,The applied sort preference should persist after page refresh. If it resets the user should be notified of the state change.
+,
+Actual Result,Sort dropdown reverts to Name (A to Z) after page refresh. Products re-render in default order. The selected sort state is lost with no feedback to the user.
+,
+Additional Notes,Applies to all 4 sort options: A-Z / Z-A / Price Low-High / Price High-Low
+Attachments,Screenshots/02_Product_Listing_Page.png
+Related RTM,RTM.csv - SauceDemo Manual Testing Portfolio
+App URL,https://www.saucedemo.com/

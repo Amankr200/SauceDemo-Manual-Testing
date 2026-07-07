@@ -1,0 +1,31 @@
+Field,Value
+Bug ID,BUG-002
+Summary,Checkout button remains active with an empty cart
+Module,Cart / Checkout
+Type,UI / Functional Bug - Practice
+Status,Open
+Severity,Medium
+Priority,High
+Reporter,Aman Kumar
+Assignee,Aman Kumar
+Environment,Chrome Latest | Windows 11
+Date Reported,02-Jul-2026
+Date Updated,07-Jul-2026
+Fix Version,-
+,
+Description,After removing all items from the shopping cart the Checkout button remains clickable. There is no UI state change to indicate that checkout should not be possible with zero items. In a real e-commerce application this would allow empty or invalid orders to be submitted.
+,
+Steps to Reproduce,1. Navigate to https://www.saucedemo.com/
+,2. Log in with standard_user / secret_sauce
+,3. Add any product to the cart
+,4. Click the cart icon to open the cart page
+,5. Click Remove to delete the product from the cart
+,6. Observe the state of the Checkout button
+,
+Expected Result,The Checkout button should be disabled or hidden when the cart contains zero items. An empty cart should block progression to checkout.
+,
+Actual Result,Checkout button remains fully enabled and clickable with 0 items in cart. Clicking it proceeds to the checkout information form allowing an empty order.
+,
+Attachments,Screenshots/04_Cart_Page.png
+Related RTM,RTM.csv - SauceDemo Manual Testing Portfolio
+App URL,https://www.saucedemo.com/

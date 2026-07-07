@@ -1,0 +1,31 @@
+Field,Value
+Bug ID,BUG-004
+Summary,All product images display incorrectly for problem_user account
+Module,Product Listing Page
+Type,UI / Data Bug - Observed
+Status,Open
+Severity,Major
+Priority,Medium
+Reporter,Aman Kumar
+Assignee,Aman Kumar
+Environment,Chrome Latest | Windows 11
+Date Reported,03-Jul-2026
+Date Updated,07-Jul-2026
+Fix Version,-
+,
+Description,When logged in as problem_user all 6 product cards on the inventory page display the same incorrect image (a dog/animal photo) instead of their respective product images. Product names and prices are correct but images are wrong and identical. Directly observed during test execution.
+,
+Steps to Reproduce,1. Navigate to https://www.saucedemo.com/
+,2. Enter Username: problem_user
+,3. Enter Password: secret_sauce
+,4. Click Login button
+,5. On the Products page observe the image displayed on each of the 6 product cards
+,
+Expected Result,Each product card should display its own correct and distinct product image matching the product name and description (e.g. backpack image for Sauce Labs Backpack).
+,
+Actual Result,All 6 product cards display the same incorrect image - a dog/animal photograph. No product card displays the correct product-specific image.
+,
+Additional Notes,standard_user account displays all product images correctly. Defect is isolated to problem_user account.
+Attachments,Screenshots/02_Product_Listing_Page.png
+Related RTM,RTM.csv - SauceDemo Manual Testing Portfolio
+App URL,https://www.saucedemo.com/

@@ -1,0 +1,32 @@
+Field,Value
+Bug ID,BUG-008
+Summary,Inconsistent text casing on Add to Cart button across product pages
+Module,Product Listing / Product Detail
+Type,UI / Cosmetic Bug - Practice
+Status,Open
+Severity,Minor
+Priority,Low
+Reporter,Aman Kumar
+Assignee,Aman Kumar
+Environment,Chrome Latest | Windows 11
+Date Reported,05-Jul-2026
+Date Updated,07-Jul-2026
+Fix Version,-
+,
+Description,The Add to Cart button displays with different text casing depending on which page the user is on. On the inventory page the button reads Add to cart (lowercase) while on the product detail page it reads Add to Cart (title case). This is a minor but visible UI inconsistency reflecting a lack of uniform styling standards.
+,
+Steps to Reproduce,1. Log in with standard_user / secret_sauce
+,2. On the Products page observe the Add to Cart button text under any product card
+,3. Note the exact casing: Add to cart
+,4. Click any product name to open its detail page
+,5. Observe the Add to Cart button text on the detail page
+,6. Compare casing between the two pages
+,
+Expected Result,The Add to Cart button text should be consistent across all pages - either always Add to cart (sentence case) or always Add to Cart (title case).
+,
+Actual Result,Inventory page button reads: Add to cart | Product detail page button reads: Add to Cart. Inconsistent casing across the two views.
+,
+Additional Notes,Applies to all 6 products. Typically caught in a UI design review or style guide audit.
+Attachments,Screenshots/02_Product_Listing_Page.png
+Related RTM,RTM.csv - SauceDemo Manual Testing Portfolio
+App URL,https://www.saucedemo.com/

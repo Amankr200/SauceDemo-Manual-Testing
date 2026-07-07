@@ -1,0 +1,30 @@
+Field,Value
+Bug ID,BUG-001
+Summary,Locked user error message verified; session path needs review
+Module,Login / Authentication
+Type,Functional Bug - Observed
+Status,Open
+Severity,Major
+Priority,High
+Reporter,Aman Kumar
+Assignee,Aman Kumar
+Environment,Chrome Latest | Windows 11
+Date Reported,01-Jul-2026
+Date Updated,07-Jul-2026
+Fix Version,-
+,
+Description,When locked_out_user attempts to log in the system correctly displays the expected error message. The core lock functionality works on initial login. However direct URL navigation (e.g. accessing /inventory.html while locked) may need additional session-level protection. Observed during live testing.
+,
+Steps to Reproduce,1. Navigate to https://www.saucedemo.com/
+,2. Enter Username: locked_out_user
+,3. Enter Password: secret_sauce
+,4. Click Login button
+,5. Observe the error message displayed on screen
+,
+Expected Result,"User sees: Epic sadface: Sorry, this user has been locked out. User cannot access any authenticated pages."
+,
+Actual Result,Correct lock error is shown on login. Lock works on initial attempt. Further verification of direct URL access while locked is recommended.
+,
+Attachments,Screenshots/08_Error_Locked_Out_User.png
+Related RTM,RTM.csv - SauceDemo Manual Testing Portfolio
+App URL,https://www.saucedemo.com/
