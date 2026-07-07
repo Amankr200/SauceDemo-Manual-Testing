@@ -1,7 +1,6 @@
-# 📋 Test Plan — SauceDemo E-Commerce Manual Testing
+#  Test Plan — SauceDemo E-Commerce Manual Testing
 
 **Document Version:** 1.0  
-**Prepared By:** [Your Name]  
 **Date:** July 2026  
 **Application:** SauceDemo (https://www.saucedemo.com/)  
 **Document Status:** Final  
