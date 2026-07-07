@@ -72,7 +72,7 @@ The primary objectives of this testing effort are:
 - Mobile application testing (native apps)
 - Payment gateway integration (SauceDemo uses a mock payment)
 - Database-level validation
-- Cross-browser testing beyond Chrome and Firefox
+- Cross-browser testing beyond Chrome and Microsoft Edge
 
 ---
 
