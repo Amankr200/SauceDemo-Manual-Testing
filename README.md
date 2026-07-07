@@ -1,10 +1,5 @@
 # SauceDemo Manual Testing Portfolio
 
-![Testing](https://img.shields.io/badge/Type-Manual%20Testing-blue)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Test Cases](https://img.shields.io/badge/Test%20Cases-52-orange)
-![Coverage](https://img.shields.io/badge/Coverage-95%25-green)
-![Application](https://img.shields.io/badge/AUT-SauceDemo-red)
 
 ## Project Overview
 
